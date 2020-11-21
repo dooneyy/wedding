@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Event</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Satisfy&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="wow-master/css/libs/animate.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="favicon_io/site.webmanifest">
+        <link rel="stylesheet" href="css/duh.css">
+        <link href="css/event.css" rel="stylesheet">
+    </head>
+    <body>
+        <section id="nav">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">O & R</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="photo.html">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="ourstory.html">Story</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="event.html">Event <span class="sr-only">(current)</span></a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </section>
+        
+        <section id="event" class="start wow bounceInDown">
+          <h1 class="title">Join Us <span>for our wedding</span> ...</h1>
+          <div class="container">
+              <div class="row">
+                <div class=" col-lg-6 col-md-12 col-sd-12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.676271675211!2d3.4347156143077546!3d6.809175521666533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bc1c77ed9827d%3A0x429c3578040febba!2sTransformation%20Int&#39;l%20School!5e0!3m2!1sen!2sng!4v1596013924219!5m2!1sen!2sng"
+                     width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="map"></iframe>
+                </div>
+
+                <div class="col-lg-6 col-md-12 col-sd-12">
+                  <div class="des wow bounceInDown">
+                    <h3 class="engage">Engagement Ceremony</h3>
+                    <p class="description">Date: 10th October, 2020 <br>Venue: Transformation int'l school, <br>Transformation avenue, off Ofada Rd, Loburo.<br>Time: 11am.</p>  
+                </div>
+                <div class="des1 wow bounceInDown ">
+                    <h3 class="reception">Reception</h3>
+                   <p class="description">Date: 10th October, 2020 <br>Venue: Tranformation int'l school, <br>Transformation avenue, off Ofada Rd, Loburo.<br>Time: Immediately after engagement.</p>  
+                </div>
+                <div class="color wow bounceInDown">
+                  <h6 class="colour">
+                    Color:</h6>
+                    <p class="gold"> Monochrome Gold</p>
+                  </div>
+            </div>
+            </div>
+            <h6>Can't find your way? Or you have questions... <br> 
+              Call Raufah @ <a href="tel:07063355948">+234 706 335 5948</a> <br>
+              Or send a message on <a href="https://wa.me/2347063355948?text=Hi"> <ion-icon name="logo-whatsapp" class="icon"></ion-icon></a>Whatsapp
+            </h6>
+            </div>
+        </section>
+        
+        <section id="footer">
+         
+          <div id="countdown"></div>
+          <script>
+            function countdownTimer() {
+              const difference = +new Date("2020-10-10") - +new Date();
+              let remaining = "WE ARE MARRIED!";
+      
+              if (difference > 0) {
+                const parts = {
+                  days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+                  hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+                  minutes: Math.floor((difference / 1000 / 60) % 60),
+                  seconds: Math.floor((difference / 1000) % 60)
+                };
+      
+                remaining = Object.keys(parts)
+                  .map(part => {
+                    if (!parts[part]) return;
+                    return `${parts[part]} ${part}`;
+                  })
+                  .join(" ");
+              }
+      
+              document.getElementById("countdown").innerHTML = remaining;
+            }
+      
+            countdownTimer();
+            setInterval(countdownTimer, 1000); 
+          </script>
+           <p class="copyright">&copy; 2020, Made with massive &#x2764;</p>
+        </section>
+          <script src="WOW-master/dist/wow.min.js"></script>
+          <script>
+          new WOW().init();
+          </script>
+          <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ /*------navigation-----*/
+#navbarNav ul {
+    margin-left: 70%;
+}
+#nav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: gray!important;
+}
+.navbar-brand{
+    font-size: 25px;
+}
+#navbarNav ul li{
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+ /*------our story-----*/
+ #our-story{   
+    color:rgb(29, 23, 23)
+}
+.title{
+    text-align: center;
+    padding-top: 50px;
+    text-transform: capitalize;
+    position: relative;
+    font-family: great vibes;
+    
+}
+span{
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.details{
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    margin-top: 20px;
+    word-spacing: 3px;
+}
+.details:after{
+    display: block;
+height: 1px;
+background-color: grey;
+content: " ";
+width: 200px;
+margin: 0 auto;
+margin-top: 30px;
+}
+.stoory{
+    padding-left: 50px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    font-family: great vibes;
+}

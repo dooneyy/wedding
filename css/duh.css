@@ -1,0 +1,114 @@
+@media only screen and (width: 280px){
+    .name{
+        padding-top: 80%;
+        font-size: 50px;
+    }
+    
+    iframe{width: 230px !important; padding-top: 30px; } 
+    .gallery img{
+        width: 100% !important;
+    }
+    #photo{padding-left: 0 !important;}
+}
+@media only screen and (width: 320px){
+    .name{
+        padding-top: 70%;
+        font-size: 50px;
+    }
+    
+    iframe{width: 270px !important; padding-top: 30px; } 
+    .gallery img{
+        width: 100% !important;
+    }
+    #photo{padding-left: 0 !important;}
+}
+
+@media only screen and (width: 360px){
+    .name{
+        padding-top: 70%;
+        font-size: 50px;
+    }
+    
+    iframe{width: 300px !important; padding-top: 30px; } 
+    .gallery img{
+        width: 100% !important;
+    }
+    #photo{padding-left: 0 !important;}
+}
+
+@media only screen and (width: 375px){
+    .name{
+        padding-top: 80%;
+        font-size: 70px;
+    }
+    
+    iframe{width: 320px !important; padding-top: 30px; } 
+    .gallery img{
+        width: 100% !important;
+    }
+    #photo{padding-left: 0 !important;}
+}
+
+@media only screen and (width: 411px){
+    .name{
+        padding-top: 80%;
+        font-size: 70px;
+    }
+    
+    iframe{width: 350px; padding-top: 30px; } 
+    .gallery img{
+        width: 100% ;
+    }
+    #photo{padding-left: 0;}
+}
+
+@media only screen and (width: 414px){
+    .name{
+        padding-top: 80%;
+        font-size: 70px;
+    }
+    
+    iframe{width: 350px ; padding-top: 30px; } 
+    .gallery img{
+        width: 100% ;
+    }
+    #photo{padding-left: 0 ;}
+}
+
+/*-----extra small phones -below 600px------*/
+@media only screen and (max-width: 600px){
+    
+    .name{
+        padding-top: 50%;
+    }
+    iframe{width: 500px; padding-top: 30px;} 
+    .gallery img{
+        width: 100% !important;  
+    }
+    #photo{padding-left: 0 !important;}
+}
+/*-----small phones (portrait tablet and larger phones)m600px and above------*/
+@media only screen and (min-width: 600px){
+    #photo{padding-left: 0 !important;}
+    .col{
+        max-width: 100% ;
+    }
+    iframe{width: 570px; padding-top: 30px; padding-right: 40px; }
+
+}
+/*-----medium phones (landscape tablet)768px and above------*/
+@media only screen and (min-width: 768px){
+
+        .col{
+            max-width: 100% ;
+        }
+        iframe{width: 650px; padding-top: 30px; padding-left: 50px;}
+    }
+/*-----large devices (laptops and desktops)992px and above------*/
+@media only screen and (min-width: 992px){    
+    iframe{ width: 500px;}
+}
+
+
+
+

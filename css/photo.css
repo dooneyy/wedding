@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ /*------navigation-----*/
+#navbarNav ul {
+    margin-left: 70%;
+}
+#nav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: gray!important;
+}
+.navbar-brand{
+    font-size: 25px;
+}
+#navbarNav ul li{
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+
+
+/*--------pictures--------*/
+.title{
+    text-align: center;
+    padding-top: 50px;
+    text-transform: capitalize;
+    position: relative;
+    font-family: great vibes;}
+
+#photo{
+    padding-left: 70px;
+    background-color: rgb(36, 35, 35);
+    color: rgb(206, 178, 18);
+}
+.gallery{
+    margin: 10px 50px;
+    
+}
+.gallery img{
+    -webkit-transition: 1s;
+    transition: 1s;
+    padding: 15px;
+    width: 250px;
+}
+.gallery img:hover{
+    -webkit-filter: grayscale(50%);
+    filter: grayscale(50%);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}

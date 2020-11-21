@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ /*------navigation-----*/
+#navbarNav ul {
+    margin-left: 70%;
+}
+#nav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: gray!important;
+}
+.navbar-brand{
+    font-size: 25px;
+}
+#navbarNav ul li{
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+/*----event-----*/
+/*----event-----*/
+#event{
+    padding: 10px 0;
+    background-color: rgb(14, 13, 13);
+    color: rgb(206, 178, 18);
+}
+.title{
+    text-align: center;
+    padding-top: 50px;
+    text-transform: capitalize;
+    position: relative;
+    font-family: great vibes;
+    
+}
+span{
+    text-transform: capitalize;
+    font-size: 30px;
+}
+ .gold,
+ .engage,
+ .reception,
+ .description,
+ .colour{
+     text-align: center;
+ }
+ .colour{
+   text-transform: capitalize;
+   margin: 20px 0 10px;
+   font-family: great vibes;
+
+}
+
+.engage,
+.reception
+{
+   margin: 15px;
+   font-family: great vibes;
+}
+
+ .map{
+   overflow:hidden;
+   padding-bottom:56.25%;
+   position:relative;
+   padding-bottom: 10px;
+   }
+
+   .map iframe{
+       left:0;
+       top:0;
+       height:100%;
+       width:100%;
+       position:absolute;
+       }
+
+       .map iframe:hover{
+           -webkit-transform: scale(1.2);
+           transform: scale(1.2);
+           -webkit-filter: grayscale(40%);
+           filter: grayscale(40%);
+       }
+
+       .icon{
+           color: #075E54;
+           font-size: 30px;
+           margin: 0 14px;
+       }
+       #countdown,
+       .copyright{
+           text-align: center;
+           margin-top: 10px;
+       }
+       #footer{
+           padding: 10px;
+           background-color: rgb(59, 57, 57);
+           color: #e2dada;
+       }
